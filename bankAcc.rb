@@ -9,11 +9,11 @@ class BankAccount
     @balance = @balance + amount
   end
 
-  def withdraw(@balance)
+  def withdraw(amount)
     @balance = @balance - amount
   end
 
-  def gain_interest(@interest_rate)
+  def gain_interest()
     @balance = @balance + @balance*@interest_rate
   end
 end
